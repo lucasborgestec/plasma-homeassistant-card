@@ -1,0 +1,201 @@
+# Portuguese (Brazil) translation of the Home Assistant Card plasmoid.
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://github.com/lucasborgestec/plasma-homeassistant-"
+"card/issues\n"
+"POT-Creation-Date: 2026-11-22 11:25-0300\n"
+"Language: pt_BR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: package/contents/config/config.qml:6
+msgid "General"
+msgstr "Geral"
+
+#: package/contents/ui/CamerasView.qml:145
+#: package/contents/ui/SensorsView.qml:179
+msgid "Set a Home Assistant token in the widget settings."
+msgstr "Configure um token do Home Assistant nas configurações do widget."
+
+#: package/contents/ui/CamerasView.qml:146
+msgid "Add some cameras in the widget settings."
+msgstr "Adicione câmeras nas configurações do widget."
+
+#: package/contents/ui/CamerasView.qml:162
+msgid "Turn cameras off"
+msgstr "Desligar câmeras"
+
+#: package/contents/ui/CameraTile.qml:102
+msgid "Click to turn on"
+msgstr "Clique para ligar"
+
+#: package/contents/ui/config/ConfigGeneral.qml:51
+msgid "Testing…"
+msgstr "Testando…"
+
+#: package/contents/ui/config/ConfigGeneral.qml:58
+msgid "Connected ✓"
+msgstr "Conectado ✓"
+
+#: package/contents/ui/config/ConfigGeneral.qml:59
+msgid "Invalid token (401)"
+msgstr "Token inválido (401)"
+
+#: package/contents/ui/config/ConfigGeneral.qml:60
+msgid "Can't reach the server"
+msgstr "Não foi possível acessar o servidor"
+
+#: package/contents/ui/config/ConfigGeneral.qml:61
+msgid "HTTP error %1"
+msgstr "Erro HTTP %1"
+
+#: package/contents/ui/config/ConfigGeneral.qml:68
+msgid "Using the token file — save and check the widget itself."
+msgstr "Usando o arquivo de token — salve e confira no próprio widget."
+
+#: package/contents/ui/config/ConfigGeneral.qml:73
+msgid "Home Assistant"
+msgstr "Home Assistant"
+
+#: package/contents/ui/config/ConfigGeneral.qml:77
+msgid "URL:"
+msgstr "URL:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:83
+msgid "Access token:"
+msgstr "Token de acesso:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:85
+msgid "Paste a long-lived access token, or leave empty to use the file below"
+msgstr ""
+"Cole um token de acesso de longa duração, ou deixe vazio para usar o arquivo "
+"abaixo"
+
+#: package/contents/ui/config/ConfigGeneral.qml:90
+msgid "…or token file:"
+msgstr "…ou arquivo do token:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:97
+msgid "Test connection"
+msgstr "Testar conexão"
+
+#: package/contents/ui/config/ConfigGeneral.qml:108
+msgid ""
+"Create the token in Home Assistant: your profile → Security → Long-lived "
+"access tokens. A token typed here is stored in plain text in the Plasma "
+"config; a file (chmod 600) keeps it out of it."
+msgstr ""
+"Crie o token no Home Assistant: seu perfil → Segurança → Tokens de acesso de "
+"longa duração. Um token digitado aqui fica salvo em texto puro na "
+"configuração do Plasma; um arquivo (chmod 600) o mantém fora dela."
+
+#: package/contents/ui/config/ConfigGeneral.qml:111
+msgid "Content"
+msgstr "Conteúdo"
+
+#: package/contents/ui/config/ConfigGeneral.qml:115
+msgid "This widget shows:"
+msgstr "Este widget mostra:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:119
+msgid "Sensors and network"
+msgstr "Sensores e rede"
+
+#: package/contents/ui/config/ConfigGeneral.qml:120
+msgid "Cameras"
+msgstr "Câmeras"
+
+#: package/contents/ui/config/ConfigGeneral.qml:130
+msgid "Sensors title:"
+msgstr "Título dos sensores:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:131
+#: package/contents/ui/SensorsView.qml:94
+msgid "Sensors"
+msgstr "Sensores"
+
+#: package/contents/ui/config/ConfigGeneral.qml:136
+msgid "Sensors:"
+msgstr "Sensores:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:148
+msgid ""
+"One entity per line: entity_id ; label ; icon. Label and icon are optional."
+msgstr ""
+"Uma entidade por linha: entity_id ; nome ; ícone. Nome e ícone são opcionais."
+
+#: package/contents/ui/config/ConfigGeneral.qml:152
+msgid "Temperature colors:"
+msgstr "Cores de temperatura:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:153
+msgid "warning from"
+msgstr "alerta a partir de"
+
+#: package/contents/ui/config/ConfigGeneral.qml:155
+msgid "critical from"
+msgstr "crítico a partir de"
+
+#: package/contents/ui/config/ConfigGeneral.qml:161
+msgid "Refresh every (s):"
+msgstr "Atualizar a cada (s):"
+
+#: package/contents/ui/config/ConfigGeneral.qml:167
+msgid "Network title:"
+msgstr "Título da rede:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:168
+#: package/contents/ui/SensorsView.qml:139
+msgid "Network"
+msgstr "Rede"
+
+#: package/contents/ui/config/ConfigGeneral.qml:173
+msgid "Download entity:"
+msgstr "Entidade de download:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:180
+msgid "Upload entity:"
+msgstr "Entidade de upload:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:189
+msgid "Cameras:"
+msgstr "Câmeras:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:201
+msgid ""
+"One camera per line: entity_id ; label. Cameras start turned off; click a "
+"tile to start streaming and use the power button to stop."
+msgstr ""
+"Uma câmera por linha: entity_id ; nome. As câmeras começam desligadas; "
+"clique em uma para iniciar o vídeo e use o botão de desligar para parar."
+
+#: package/contents/ui/config/ConfigGeneral.qml:206
+msgid "Save resources:"
+msgstr "Economizar recursos:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:207
+msgid "Pause video while a window covers the widget"
+msgstr "Pausar o vídeo quando uma janela cobrir o widget"
+
+#: package/contents/ui/main.qml:74
+msgid "No Home Assistant token configured"
+msgstr "Nenhum token do Home Assistant configurado"
+
+#: package/contents/ui/SensorsView.qml:61
+msgctxt "network rate"
+msgid "%1 kb/s"
+msgstr "%1 kb/s"
+
+#: package/contents/ui/SensorsView.qml:62
+msgctxt "network rate"
+msgid "%1 Mb/s"
+msgstr "%1 Mb/s"
+
+#: package/contents/ui/SensorsView.qml:180
+msgid "Add some entities in the widget settings."
+msgstr "Adicione entidades nas configurações do widget."
+
+#: package/contents/ui/SensorsView.qml:181
+msgid "Can't reach Home Assistant at %1"
+msgstr "Não foi possível acessar o Home Assistant em %1"

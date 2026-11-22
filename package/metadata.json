@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Lucas Borges"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Home Assistant sensors, network throughput and live cameras on your Plasma desktop",
+        "Description[pt_BR]": "Sensores, tráfego de rede e câmeras ao vivo do Home Assistant na área de trabalho do Plasma",
+        "Icon": "go-home",
+        "Id": "io.github.lucasborgestec.homeassistantcard",
+        "License": "MIT",
+        "Name": "Home Assistant Card",
+        "Name[pt_BR]": "Cartão do Home Assistant",
+        "Version": "1.0.0",
+        "Website": "https://github.com/lucasborgestec/plasma-homeassistant-card",
+        "BugReportUrl": "https://github.com/lucasborgestec/plasma-homeassistant-card/issues"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

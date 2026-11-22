@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <!-- Connection -->
+    <entry name="haUrl" type="String"><default>http://homeassistant.local:8123</default></entry>
+    <entry name="token" type="String"><default></default></entry>
+    <entry name="tokenFile" type="String"><default>~/.config/homeassistant/token</default></entry>
+
+    <!-- What this instance shows: "sensors" or "cameras" -->
+    <entry name="mode" type="String"><default>sensors</default></entry>
+
+    <!-- Sensors mode. One per line: entity_id ; Label ; icon-name (label and icon optional) -->
+    <entry name="sensorsTitle" type="String"><default></default></entry>
+    <entry name="sensors" type="String"><default></default></entry>
+    <entry name="refreshInterval" type="Int"><default>5</default></entry>
+    <entry name="warningTemperature" type="Int"><default>60</default></entry>
+    <entry name="criticalTemperature" type="Int"><default>75</default></entry>
+
+    <!-- Optional network throughput section (entity ids) -->
+    <entry name="networkTitle" type="String"><default></default></entry>
+    <entry name="downloadEntity" type="String"><default></default></entry>
+    <entry name="uploadEntity" type="String"><default></default></entry>
+
+    <!-- Cameras mode. One per line: camera.entity_id ; Label -->
+    <entry name="cameras" type="String"><default></default></entry>
+    <entry name="camerasEnabled" type="Bool"><default>false</default></entry>
+    <entry name="pauseWhenCovered" type="Bool"><default>true</default></entry>
+  </group>
+</kcfg>
